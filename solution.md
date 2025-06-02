@@ -438,40 +438,40 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     - Поиск:
     `Ctrl + W`
     
-    ![](screens/42.png)
+    ![](screens/44.png)
 
     - Замена:
     `Ctrl + \`
 
-    ![](screens/43.png)
+    ![](screens/45.png)
 
     - Вводим слово для замены:
 
-    ![](screens/44.png)
+    ![](screens/46.png)
 
     - Применяем замену:
 
-    ![](screens/45.png)
+    ![](screens/47.png)
 
 - **MCEDIT**
 
     - Поиск:
     `F7`
     
-    ![](screens/46.png)
+    ![](screens/48.png)
 
     - Вводим и подтверждаем слово для поиска:
 
-    ![](screens/47.png)
+    ![](screens/49.png)
 
     - Замена:
     `F4`
 
-    ![](screens/48.png)
+    ![](screens/50.png)
 
     - Вводим и подтверждаем слово для замены:
 
-    ![](screens/49.png)
+    ![](screens/51.png)
 
 
 ## Part 8. Установка и базовая настройка сервиса **SSHD**
