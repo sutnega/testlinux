@@ -536,7 +536,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     ps aux | grep -i ssh
     ```
 
-    ![](screens/54.png)
+    ![](screens/56.png)
 
     - > **ps** - утилита для просмотра списка процессов в Linux. <br> Параметр `-a` - выбрать все процессы всех пользователей, кроме фоновых. 
     <br> Параметр `-u` обозначает ориентированный на пользователя формат, который предоставляет подробную информацию о процессах. 
@@ -550,7 +550,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     netstat -tan
     ```
 
-    ![](screens/55.png)
+    ![](screens/57.png)
 
     - Как видно на скриншоте, вывод команды содержит `tcp 0 0 0.0.0.0:2022 0.0.0.0:* LISTEN`, что соответствует требованию задания.
 
@@ -597,7 +597,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
 
 - Команда `top` выводит на экран:
 
-    ![](screens/56.png)
+    ![](screens/58.png)
 
   - uptime - 34 минуты;
   - количество авторизованных пользователей - 1;
