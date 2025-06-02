@@ -379,11 +379,11 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
 
 - MCEDIT. Запишем никнейм `leakingm`:
 
-    ![](screens/35.png)
+
 
     - Для выхода с сохранением изменений нужно нажать `F10` и выбрать `Yes`
 
-    ![](screens/36.png)
+    ![](screens/35.png)
 
 ---
 ### Запись "21 School 21" в файлы с выходом без сохранения
