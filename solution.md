@@ -818,19 +818,19 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     ```
     sudo apt install ncdu
     ```
-    ![](screens/79.png)
+    ![](screens/80.png)
 
 - Выведем размер папки `/home`:
 
-    ![](screens/80.png)
+    ![](screens/81.png)
 
 - Выведем размер папки `/var`:
 
-    ![](screens/81.png)
+    ![](screens/82.png)
 
 - Выведем размер папки `/var/log`:
 
-    ![](screens/82.png)
+    ![](screens/83.png)
 
 - На скриншотах видно, размеры папок примерно совпадают с полученными в `части 12` [Part 12] задания.
 
