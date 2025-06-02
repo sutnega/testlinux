@@ -390,7 +390,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
 
 - VIM. Запишем "21 School 21":
 
-    ![](screens/37.png)
+    ![](screens/36.png)
 
     - Для выхода без сохранения нужно нажать `ESC`, затем написать `:q!`. Проверим, что изменения не сохранились:
 
