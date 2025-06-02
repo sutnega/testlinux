@@ -23,7 +23,7 @@
 
 - Результат выполнения команды `cat /etc/issue`:
 
-    ![](screens/2.png)
+    ![](screens/6.png)
 
 ## Part 2. Создание пользователя
 
@@ -43,19 +43,19 @@
     sudo adduser newuser
     ```
 
-    ![](screens/3.png)
+    ![](screens/7.png)
 
 - Добавим нового пользователя `newuser` в группу `adm` с помощью команды:
     ```
     sudo usermod -a -G adm newuser
     ```
 
-    ![](screens/4.png)
+    ![](screens/8.png)
 
 - Новый пользователь присутствует в выводе команды
 `cat /etc/passwd`
 
-    ![](screens/5.png)
+    ![](screens/9.png)
 
 
 
@@ -80,7 +80,7 @@
 
 - С помощью команды `hostname` выясним, что при установке ОС машине было задано задано название `leakingmserver`. 
 
-    ![](screens/6.png)
+    ![](screens/10.png)
 
 - Зададим новое название машины: `user-1`; с помощью команды:
     ```
