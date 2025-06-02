@@ -394,15 +394,15 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
 
     - Для выхода без сохранения нужно нажать `ESC`, затем написать `:q!`. Проверим, что изменения не сохранились:
 
-    ![](screens/38.png)
+    ![](screens/37.png)
 
 - NANO. Запишем "21 School 21":
 
-    ![](screens/39.png)
+    ![](screens/38.png)
 
     - Для выхода без сохранения изменений нужно нажать `Ctrl+X` и подтвердить нажатием на `N`. Проверим, что изменения не сохранились:
 
-    ![](screens/40.png)
+    ![](screens/39.png)
 
 - MCEDIT. Запишем "21 School 21":
 
@@ -410,11 +410,11 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
 
     - Для выхода без сохранения изменений нужно нажать `F10` и выбрать `No`
 
-    ![](screens/38.png)
+    ![](screens/41.png)
 
     - Проверим, что изменения не сохранились:
 
-    ![](screens/39.png)
+    ![](screens/42.png)
 
 ---
 
