@@ -184,11 +184,11 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     sudo vim /etc/netplan/00-installer-config.yaml
     ```
 
-    ![](screens/22.png)
+    ![](screens/21_1.png)
 
 - Зададим статические настройки: изменим параметр dhcp4 на значение `false`, в `addresses` укажем статический IP-адрес: `10.0.2.45/24`, и в `gateway4` зададим внутренний IP-адрес `10.0.2.2`. В параметре `addresses` раздела `nameservers` укажем публичные серверы.
 
-    ![](screens/23.png)
+    ![](screens/22.png)
 
 - Для применения изменений используем команду:
     ```
@@ -200,7 +200,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     cat /etc/netplan/00-installer-config.yaml
     ```
 
-    ![](screens/24.png)
+    ![](screens/23.png)
 
 - Также, для проверки статического IP-адреса можно использовать команды:
     ```
@@ -210,7 +210,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     ifconfig
     ```
 
-    ![](screens/25.png)
+    ![](screens/24.png)
 
 - На скриншотах видно, что выставленный вручную статический IP-адрес `10.0.2.4` после перезагрузки остался неизменным.
 
@@ -223,7 +223,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     ```
     ping ya.ru -c 3
     ```
-    ![](screens/26.png)
+    ![](screens/25.png)
 
 - На скриншоте видно, что выводе команды присутствует фраза `0% packet loss`, это свидетельствует о том, что компьютер получил ответ от всех отправленных на указанные сервера пакетов данных.
 
@@ -248,10 +248,10 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     ```
     sudo apt full-upgrade
     ```
-    ![](screens/27.png)
+    ![](screens/26.png)
 
 - После обновления системных пакетов видим, что при повторном введении двух последних команд получены сообщения об отсутствии новых обновлений
-    ![](screens/28.png)
+    ![](screens/27.png)
 
 ## Part 5. Использование команды **sudo**
 
@@ -274,7 +274,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     groups newuser
     ```
 
-    ![](screens/29.png)
+    ![](screens/28.png)
 
 - На скриншоте видно, что пользователь был добавлен в группу `sudo`. Это дает ему возможность выполнять команду `sudo`.
 
@@ -285,7 +285,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     su newuser
     ```
 
-    ![](screens/30.png)
+    ![](screens/29.png)
 
 - Чтобы узнать текущее имя хоста воспользуемся командой:
     ```
@@ -300,7 +300,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     hostname
     ```
 
-    ![](screens/26.png)
+    ![](screens/30.png)
 
 - Выполним перезагрузку машины командой `reboot` и проверим сохранность изменений:
 
