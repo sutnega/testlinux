@@ -512,7 +512,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     ```
 - Изменим значение параметра `Port` с 22 на 2022
 
-    ![](screens/51.png)
+    ![](screens/53.png)
 
 - Чтобы изменения в конфигурации сохранились, перезапустим сервер OpenSSH, используя следующую команду:
     ```
@@ -521,7 +521,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
 
 - Проверим состояние SSHd службы после изменения порта командой `sudo systemctl status ssh`
 
-    ![](screens/52.png)
+    ![](screens/54.png)
 
     - На скриншоте видно, что порт изменен.
 
@@ -529,7 +529,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     - Заменим “ssh” новым номером порта: 
     `sudo ufw allow 2022/tcp`
 
-    ![](screens/53.png)
+    ![](screens/55.png)
 
 - Покажем наличие процесса sshd, используя команду:
     ```
