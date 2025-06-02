@@ -410,11 +410,10 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
 
     - Для выхода без сохранения изменений нужно нажать `F10` и выбрать `No`
 
-    ![](screens/41.png)
 
     - Проверим, что изменения не сохранились:
 
-    ![](screens/42.png)
+    ![](screens/41.png)
 
 ---
 
@@ -427,12 +426,12 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     - Поиск:
     `ESC + /<слово_для_поиска>`
     
-    ![](screens/40.png)
+    ![](screens/42.png)
 
     - Замена:
     `:s/<заменяемое>/<заменитель>`
 
-    ![](screens/41.png)
+    ![](screens/43.png)
 
 - **NANO**
 
