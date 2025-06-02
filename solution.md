@@ -612,38 +612,38 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
 - **htop** :
     - Вывод команды без сортировки
 
-    ![](screens/57.png)
+    ![](screens/59.png)
 
     - Для сортировки в `htop` нужно нажать `F6` и выбрать параметр сортировки.
     - `htop` отсортированный по `PID`
 
-    ![](screens/58.png)
+    ![](screens/60.png)
 
     - `htop` отсортированный по `PERCENT_CPU`
 
-    ![](screens/59.png)
+    ![](screens/61.png)
 
     - `htop` отсортированный по `PERCENT_MEM`
 
-    ![](screens/60.png)
+    ![](screens/62.png)
 
     - `htop` отсортированный по `TIME`
 
-    ![](screens/61.png)
+    ![](screens/63.png)
 
     - Для использования фильтров в `htop` нужно нажать `F4` и выбрать параметр фильтрации.
     - htop, отфильтрованный для процесса SSHd
 
-    ![](screens/62.png)
+    ![](screens/64.png)
 
     - Для использования поиска в `htop` нужно нажать `F3` и ввести объект поиска. <br>
     `htop` с процессом `syslog`, найденным, используя поиск:
 
-    ![](screens/63.png)
+    ![](screens/65.png)
 
     - Для добавления отображения дополнительных параметров в `htop`, необходимо нажать `F2` и добавить требуемые параметры. `htop` с добавленным выводом hostname, clock и uptime
 
-    ![](screens/67.png)
+    ![](screens/66.png)
 
 
 ## Part 10. Использование утилиты **fdisk**
