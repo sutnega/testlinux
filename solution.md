@@ -251,7 +251,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     ![](screens/26.png)
 
 - После обновления системных пакетов видим, что при повторном введении двух последних команд получены сообщения об отсутствии новых обновлений
-    ![](screens/27.png)
+  
 
 ## Part 5. Использование команды **sudo**
 
@@ -274,7 +274,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     groups newuser
     ```
 
-    ![](screens/28.png)
+    ![](screens/27.png)
 
 - На скриншоте видно, что пользователь был добавлен в группу `sudo`. Это дает ему возможность выполнять команду `sudo`.
 
@@ -285,7 +285,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     su newuser
     ```
 
-    ![](screens/29.png)
+    ![](screens/28.png)
 
 - Чтобы узнать текущее имя хоста воспользуемся командой:
     ```
@@ -300,11 +300,11 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     hostname
     ```
 
-    ![](screens/30.png)
+    ![](screens/29.png)
 
 - Выполним перезагрузку машины командой `reboot` и проверим сохранность изменений:
 
-    ![](screens/27.png)
+    ![](screens/30.png)
 
 
 ## Part 6. Установка и настройка службы времени
