@@ -723,7 +723,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     df -Th
     ```
 
-    ![](screens/72.png)
+    ![](screens/73.png)
 
     >Для корневого раздела (/):\
         - Размер раздела: 12;\
@@ -751,7 +751,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     du
     ```
 
-    ![](screens/73.png)
+    ![](screens/74.png)
 
 - Вывод размера папки /home в байтах и в человекочитаемом виде командами:
     ```
@@ -761,7 +761,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     sudo du -sh /home/
     ```
 
-    ![](screens/74.png)
+    ![](screens/75.png)
 
 - Вывод размера папки /var в байтах и в человекочитаемом виде командами:
     ```
@@ -771,7 +771,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     sudo du -sh /var/
     ```
 
-    ![](screens/75.png)
+    ![](screens/76.png)
 
 - Вывод размера папки /var/log в байтах и в человекочитаемом виде командами:
     ```
@@ -781,7 +781,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     sudo du -sh /var/log/
     ```
 
-    ![](screens/76.png)
+    ![](screens/77.png)
 
 - Вывод размера всего содержимого папки /var/log в байтах и в человекочитаемом виде командами:
     ```
@@ -791,14 +791,14 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     sudo du -h /var/log/
     ```
 
-    ![](screens/77.png)
+    ![](screens/78.png)
 
 - Вывод размера всего содержимого папки (каждого вложенного элемента) /var/log с использованием `*` командой:
     ```
     sudo du /var/log/* | less
     ```
 
-    ![](screens/78.png)
+    ![](screens/79.png)
 
 
 ## Part 13. Установка и использование утилиты **ncdu**
