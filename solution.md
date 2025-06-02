@@ -467,11 +467,10 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     - Замена:
     `F4`
 
-    ![](screens/50.png)
 
     - Вводим и подтверждаем слово для замены:
 
-    ![](screens/51.png)
+    ![](screens/50.png)
 
 
 ## Part 8. Установка и базовая настройка сервиса **SSHD**
@@ -503,7 +502,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     sudo systemctl status ssh
     ```
 
-    ![](screens/50.png)
+    ![](screens/51.png)
 
 - Как видно на скриншоте, автостарт SSHd службы добавлен автоматически при загрузке. Чтобы включить автостарт можно воспользоваться командой `sudo systemctl enable ssh`, для выключения автостарта команда `sudo systemctl disable ssh`.
 
