@@ -361,47 +361,48 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     ```
     sudo apt install mcedit
     ```
+![](screens/32.png)
 ---
 ### Запись никнейма в файлы и закрытие с сохранением
 
 - VIM. Запишем никнейм `leakingm` , перейдя в режим редактирования нажатием клавиши `i`:
 
-    ![](screens/32.png)
+    ![](screens/33.png)
 
     - Для выхода с сохранением изменений нужно нажать `ESC`, затем написать `:wq`, что означает write and quit.
 
 - NANO. Запишем никнейм `leakingm`:
 
-    ![](screens/33.png)
+    ![](screens/34.png)
 
     - Для выхода с сохранением изменений нужно нажать `Ctrl+S` и затем `Ctrl+X`.
 
 - MCEDIT. Запишем никнейм `leakingm`:
 
-    ![](screens/34.png)
+    ![](screens/35.png)
 
     - Для выхода с сохранением изменений нужно нажать `F10` и выбрать `Yes`
 
-    ![](screens/35.png)
+    ![](screens/36.png)
 
 ---
 ### Запись "21 School 21" в файлы с выходом без сохранения
 
 - VIM. Запишем "21 School 21":
 
-    ![](screens/36.png)
+    ![](screens/37.png)
 
     - Для выхода без сохранения нужно нажать `ESC`, затем написать `:q!`. Проверим, что изменения не сохранились:
 
-    ![](screens/37.png)
+    ![](screens/38.png)
 
 - NANO. Запишем "21 School 21":
 
-    ![](screens/38.png)
+    ![](screens/39.png)
 
     - Для выхода без сохранения изменений нужно нажать `Ctrl+X` и подтвердить нажатием на `N`. Проверим, что изменения не сохранились:
 
-    ![](screens/39.png)
+    ![](screens/40.png)
 
 - MCEDIT. Запишем "21 School 21":
 
